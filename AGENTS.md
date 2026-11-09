@@ -2,7 +2,7 @@
 
 ## What This Is
 
-Static HTML + PHP site for "Herbolario Las Nieves" (herbal shop, Las Gabias, Granada). Based on the Start Bootstrap Freelancer template. Single-page HTML with Bootstrap 4, jQuery, SCSS, and a PHP contact form. **No build step needed to deploy** — all compiled/minified assets are already in the repo.
+Static HTML site for "Herbolario Las Nieves" (herbal shop, Las Gabias, Granada). Based on the Start Bootstrap Freelancer template. Single-page HTML with Bootstrap 4, jQuery and SCSS; the contact section links to a `mailto:` address instead of using a server-side form. **No build step needed to deploy** — all compiled/minified assets are already in the repo.
 
 ## Deployment
 
@@ -28,7 +28,6 @@ If editing SCSS sources, use Gulp locally to recompile:
 - `css/` — compiled CSS output (generated, do not edit directly)
 - `js/` — JS source + minified versions
 - `vendor/` — third-party libs copied from node_modules by `gulp vendor`
-- `mail/contact_me.php` — PHP contact form (requires server-side PHP)
 - `logs/` — **server access logs and traffic data from IONOS, do not modify or commit**
 
 ## Gotchas
